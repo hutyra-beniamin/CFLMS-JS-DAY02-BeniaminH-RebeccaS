@@ -30,3 +30,13 @@ if (temperature > 20) {
 
 }
 */
+
+// Intermidate Ex 1
+
+Students = ["Martin", "Thomas", "Klaus", "Maria", "David", ];
+
+var Martin = 76;
+var Thomas = 85;
+var Klaus = 65;
+var Maria = 93;
+var David = 81;
