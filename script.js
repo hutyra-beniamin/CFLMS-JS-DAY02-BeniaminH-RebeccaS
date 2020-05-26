@@ -1,23 +1,24 @@
 //Basic Exercise 1
-/*var randomTemp = Math.floor(Math.random() * 31) - 5;
+var randomTemp = Math.floor(Math.random() * 31) - 5;
 document.write(randomTemp);
 
 if (randomTemp > 11) {
     document.write(" The weather is moderate ");
 } else {
     document.write(" The weather is cold ");
-}*/
+}
 
 
 //Basic Exercise 2
+
 //console.log(Math.max(1, 2, 3));
-/*
+
 var array1 = [10000, 2, 3, 234];
 console.log(Math.max(...array1));
-*/
+
 
 //Basic Exercise 3
-/*
+
 var temperature = (Math.random() * 40) - 5
 if (temperature > 20) {
     document.write("The weather is hot")
@@ -29,7 +30,7 @@ if (temperature > 20) {
     document.write("The weather is cold")
 
 }
-*/
+
 
 // Intermidate Ex 1
 
@@ -42,7 +43,6 @@ var Maria = 93;
 var David = 81;
 
 document.write("The average grade of the class is " + '' + (Martin + Thomas + Klaus + Maria + David) / 5)
-
 
 
 var student_grades = [
@@ -67,3 +67,28 @@ for (var i = 0; i < student_grades.length; i++) {
         document.write(student_grades[i][0] + "\’s Grade with " + student_grades[i][1] + " Points is: A<br>");
 }
 }
+
+
+
+// Intermediat Exercise 2 | FizzBuzz
+
+for (var i = 1; i < 101; i++) {
+    if (i % 15 == 0) console.log("FizzBuzz");
+    else if (i % 3 == 0) console.log("Fizz");
+    else if (i % 5 == 0) console.log("Buzz");
+    else console.log(i);
+}
+
+
+// Intermediat Exercise 3
+
+var text= ' ';
+
+for (var i = 1; i < 7; i++) {
+  text += "*";
+  document.write(text + "<br>")  
+}
+
+
+
+
