@@ -1,8 +1,8 @@
-var randomTemp = Math.floor(Math.random() * 31) -5;
+var randomTemp = Math.floor(Math.random() * 31) - 5;
 document.write(randomTemp);
 
-if (randomTemp > 100) {
-   document.write("a is greater than 100")
+if (randomTemp > 11) {
+    document.write(" The weather is moderate ");
 } else {
-   document.write("a is less than or equal to 100")
+    document.write(" The weather is cold ");
 }
